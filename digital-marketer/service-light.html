@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INFO HTML5 Template">
+
+  <title>Full Stack Developer - Service</title>
+
+  <!-- Fav Icon -->
+  <link rel="icon" type="image/x-icon" href="../assets/imgs/logo/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- All CSS files -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/all.min.css">
+  <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../assets/css/progressbar.css">
+  <link rel="stylesheet" href="../assets/css/meanmenu.min.css">
+  <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="../assets/css/basictable.min.css">
+  <link rel="stylesheet" href="../assets/css/master-digital-marketer.css">
+
+
+</head>
+
+
+<body class="font-heading-lora light">
+
+  <!-- Body Ovelay -->
+  <div class="body-overlay"></div>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="container" class="container-preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text="I" class="characters">I</span>
+          <span data-text="N" class="characters">N</span>
+          <span data-text="F" class="characters">F</span>
+          <span data-text="O" class="characters">O</span>
+        </div>
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Animation -->
+  <div class="cursor1"></div>
+
+
+  <!-- Sroll to top -->
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open" aria-label="switcher-open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close" aria-label="switcher-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">mode</p>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="dark" aria-label="active">dark</button>
+          <button data-mode="light" aria-label="light">light</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Language Support</p>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr" aria-label="ltr">LTR</button>
+          <button data-mode="rtl" aria-label="rtl">RTL</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Layout</p>
+        </div>
+        <div class="switcher__btn layout-type wc-col-2">
+          <button class="active" data-mode="full-width" aria-label="full width">Full Width</button>
+          <button data-mode="box-layout" aria-label="box-layout">Box Layout</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <p class="switcher__title">Cursor</p>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+  <!-- Offcanves start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasOne">
+      <button class="offcanvas__close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      <div class="offcanvas__body">
+        <div class="offcanvas__logo">
+          <a href="index.html">
+            <img src="../assets/imgs/logo/site-logo-light.png" alt="Offcanvas Logo" class="show-dark">
+            <img src="../assets/imgs/logo/site-logo-dark.png" alt="Offcanvas Logo" class="show-light">
+          </a>
+          <p>Create live segments and target the right people for messages based on their behaviors.</p>
+        </div>
+
+        <div class="offcanvas__menu-area">
+          <div class="offcanvas__menu-wrapper">
+          </div>
+        </div>
+
+        <div class="offcanvas__gallery">
+          <p class="offcanvas__title">gallery</p>
+          <div class="gallery__items">
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-2.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-3.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-4.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-5.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <div class="gallery__item">
+              <a href="#"><img src="../assets/imgs/thumb/gallery-6.jpg" alt="gallery Image">
+                <span><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas__media">
+          <p class="offcanvas__title">Follow</p>
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Offcanves end -->
+
+
+  <div class="has-smooth" id="has_smooth"></div>
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <div class="body-wrapper">
+
+        <!-- overlay switcher close  -->
+        <div class="overlay-switcher-close"></div>
+
+        <!-- Header area start -->
+        <header class="marketer__header">
+          <div class="marketer__header-inner">
+            <div class="marketer__header-logo">
+              <a href="index.html">
+                <img src="../assets/imgs/logo/site-logo-light.png" class="show-dark" alt="Footer Logo">
+                <img src="../assets/imgs/logo/site-logo-dark.png" class="show-light" alt="Footer Logo">
+              </a>
+            </div>
+            <div class="header__nav-3">
+              <nav class="main-menu marketer-menu">
+                <ul>
+                  <li><a href="index.html">home</a></li>
+                  <li><a href="about.html">about</a></li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="dp-menu">
+                      <li><a href="index.html">home dark</a></li>
+                      <li><a href="index-light.html">home light</a></li>
+                      <li><a href="about.html">about dark</a></li>
+                      <li><a href="about-light.html">about light</a></li>
+                      <li><a href="service.html">service dark</a></li>
+                      <li><a href="service-light.html">service light</a></li>
+                      <li><a href="service-details.html">service details dark</a></li>
+                      <li><a href="service-details-light.html">service details light</a></li>
+                      <li><a href="blog.html">blog dark</a></li>
+                      <li><a href="blog-light.html">blog light</a></li>
+                      <li><a href="blog-details.html">blog details dark</a></li>
+                      <li><a href="blog-details-light.html">blog details light</a></li>
+                      <li><a href="contact.html">contact dark</a></li>
+                      <li><a href="contact-light.html">contact light</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">portfolio</a>
+                    <ul class="dp-menu">
+                      <li><a href="project.html">portfolio dark</a></li>
+                      <li><a href="project-light.html">portfolio light</a></li>
+                      <li><a href="project-details.html">portfolio details dark</a></li>
+                      <li><a href="project-details-light.html">portfolio details light</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__nav-icon-3">
+              <button class="menu-icon" id="open_offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOne">
+                <span></span> </button>
+            </div>
+          </div>
+        </header>
+        <!-- Header area end -->
+
+
+        <main>
+
+          <!-- project section start  -->
+          <section class="marketer-ins__area pb-100">
+            <div class="container">
+              <div class="marketer-inp__project-sec-title-wrap">
+                <h1 class="marketer-inp__project-title has_text_move_anim">Digital marketer <br> services</h1>
+              </div>
+              <div class="marketer-ins__area-service-items">
+                <div class="marketer__expertise-grid">
+                  <div class="marketer__expertise-item cf_service_card has_fade_anim" data-fade-from="left"
+                    data-speed="1.15">
+                    <a href="service-details.html">
+                      <div class="marketer__expertise-content">
+                        <div class="marketer__expertise-heading">
+                          <h4 class="marketer__expertise-title">Search Engine <br> Optimization</h4>
+                        </div>
+                        <div class="marketer__expertise-body">
+                          <div class="marketer__expertise-bthumb">
+                            <img src="../assets/imgs/expertise/vector-01.png" alt="expert">
+                          </div>
+                        </div>
+                        <div class="marketer__expertise-footer">
+                          <p>Perspective web development made with market that resized <br> digital solution.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="marketer__expertise-item cf_service_card has_fade_anim" data-fade-from="left"
+                    data-speed="0.95">
+                    <a href="service-details.html">
+                      <div class="marketer__expertise-content">
+                        <div class="marketer__expertise-heading">
+                          <h4 class="marketer__expertise-title">Social Media <br> Marketing</h4>
+                        </div>
+                        <div class="marketer__expertise-body">
+                          <div class="marketer__expertise-bthumb">
+                            <img src="../assets/imgs/expertise/vector-02.png" alt="expert">
+                          </div>
+                        </div>
+                        <div class="marketer__expertise-footer">
+                          <p>Perspective web development made with market that resized <br> digital solution.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="marketer__expertise-item cf_service_card has_fade_anim" data-fade-from="left"
+                    data-speed="1.15">
+                    <a href="service-details.html">
+                      <div class="marketer__expertise-content">
+                        <div class="marketer__expertise-heading">
+                          <h4 class="marketer__expertise-title">Content <br> Marketing</h4>
+                        </div>
+                        <div class="marketer__expertise-body">
+                          <div class="marketer__expertise-bthumb ">
+                            <img src="../assets/imgs/expertise/vector-03.png" alt="expert">
+                          </div>
+                        </div>
+                        <div class="marketer__expertise-footer">
+                          <p>Perspective web development made with market that resized <br> digital solution.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="marketer__expertise-item cf_service_card has_fade_anim" data-fade-from="left"
+                    data-speed=".95">
+                    <a href="service-details.html">
+                      <div class="marketer__expertise-content">
+                        <div class="marketer__expertise-heading">
+                          <h4 class="marketer__expertise-title">Email <br> Marketing</h4>
+                        </div>
+                        <div class="marketer__expertise-body">
+                          <div class="marketer__expertise-bthumb">
+                            <img src="../assets/imgs/expertise/vector-04.png" alt="expert">
+                          </div>
+                        </div>
+                        <div class="marketer__expertise-footer">
+                          <p>Perspective web development made with market that resized <br> digital solution.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /project section end  -->
+
+          <!-- process section start  -->
+          <section class="marketer-process__area">
+            <div class="container">
+              <div class="marketer__expertise-swrapper">
+                <div class="section_left">
+                  <h2 class="sec-title-3 has_text_reveal_anim">We provide optimal <br> & fast process</h2>
+                </div>
+                <div class="marketer__expertise-dis">
+                  <div class="cf_text has_fade_anim">
+                    <p>Digital marketing can be <strong class="color-light">broadly</strong> <br> broken into main
+                      categories with all <br> dynamic strategy</p>
+                  </div>
+                </div>
+              </div>
+              <div class="marketer-process__area-items">
+                <div class="marketer-process__area-item has_fade_anim" data-fade-from="left">
+                  <h2 class="marketer-process__area-title">Register & <br> Send Requests</h2>
+                  <div class="cf_image marketer-process__area-icon">
+                    <img src="../assets/imgs/expertise/vector-01.png" alt="process-icon">
+                  </div>
+                </div>
+                <div class="marketer-process__area-item has_fade_anim" data-fade-from="left">
+                  <h2 class="marketer-process__area-title">Admin Verify <br> Details</h2>
+                  <div class="cf_image marketer-process__area-icon">
+                    <img src="../assets/imgs/expertise/vector-02.png" alt="process-icon">
+                  </div>
+                </div>
+                <div class="marketer-process__area-item has_fade_anim" data-fade-from="left">
+                  <h2 class="marketer-process__area-title">Make a <br> Planning</h2>
+                  <div class="cf_image marketer-process__area-icon">
+                    <img src="../assets/imgs/expertise/vector-03.png" alt="process-icon">
+                  </div>
+                </div>
+                <div class="marketer-process__area-item has_fade_anim" data-fade-from="left">
+                  <h2 class="marketer-process__area-title">Complete <br> Projects</h2>
+                  <div class="cf_image marketer-process__area-icon">
+                    <img src="../assets/imgs/expertise/vector-04.png" alt="process-icon">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- process section end  -->
+
+          <!-- experience section start-->
+          <section class="marketer__experience pt-100 pb-100">
+            <div class="container">
+              <div class="marketer__title-mb">
+                <h2 class="sec-title-3 has_text_reveal_anim">My experience <br> & skills</h2>
+              </div>
+              <div class="row pt-120">
+                <div class="col-xxl-12">
+                  <div class="marketer__skill-award">
+                    <div class="marketer__skill-wrap">
+                      <h4 class="skill4_wrapper__title has_char_anim">Skills</h4>
+
+                      <div class="progress__item-2 has_fade_anim">
+                        <h3 class="progress__label-2" data-width="95">Figma</h3>
+                      </div>
+                      <div class="progress__item-2 has_fade_anim">
+                        <h3 class="progress__label-2" data-width="80">Adobe XD</h3>
+                      </div>
+                      <div class="progress__item-2 has_fade_anim">
+                        <h3 class="progress__label-2" data-width="55">Sketch</h3>
+                      </div>
+                      <div class="progress__item-2 has_fade_anim">
+                        <h3 class="progress__label-2" data-width="75">WIrframe</h3>
+                      </div>
+                    </div>
+
+                    <div class="marketer__award-wrap">
+                      <div class="skill4_wrapper">
+                        <h4 class="skill4_wrapper__title has_char_anim">Awards</h4>
+                      </div>
+
+                      <div class="marketer__award-container">
+                        <div class="marketer__award-items">
+                          <div class="marketer__award-item has_fade_anim">
+                            <div class="cf__award-thumb">
+                              <img class="show-dark" src="../assets/imgs/skills/icon/7.png" alt="icon">
+                              <img class="show-light" src="../assets/imgs/skills/icon/7-light.png" alt="icon">
+                            </div>
+                            <div class="cf__award-content">
+                              <h4 class="cf__award-awtitle">02x Developer Award</h4>
+                              <span>Nominee</span>
+                            </div>
+                          </div>
+                          <div class="marketer__award-item has_fade_anim">
+                            <div class="cf__award-thumb">
+                              <img class="show-dark" src="../assets/imgs/skills/icon/8.png" alt="image">
+                              <img class="show-light" src="../assets/imgs/skills/icon/8-light.png" alt="image">
+                            </div>
+                            <div class="cf__award-content">
+                              <h4 class="cf__award-awtitle">03x Developer Award</h4>
+                              <span>Winner</span>
+                            </div>
+                          </div>
+                          <div class="marketer__award-item has_fade_anim">
+                            <div class="cf__award-thumb">
+                              <img class="show-dark" src="../assets/imgs/skills/icon/9.png" alt="image">
+                              <img class="show-light" src="../assets/imgs/skills/icon/9-light.png" alt="image">
+                            </div>
+                            <div class="cf__award-content">
+                              <h4 class="cf__award-awtitle">05x Designer Award</h4>
+                              <span>Ruuners Up</span>
+                            </div>
+                          </div>
+                          <div class="marketer__award-item has_fade_anim">
+                            <div class="cf__award-thumb">
+                              <img class="show-dark" src="../assets/imgs/skills/icon/10.png" alt="image">
+                              <img class="show-light" src="../assets/imgs/skills/icon/10-light.png" alt="image">
+                            </div>
+                            <div class="cf__award-content">
+                              <h4 class="cf__award-awtitle">03x Creative Adward</h4>
+                              <span>Winner</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /experience section end-->
+
+          <!-- testimonial section start -->
+          <section class="marketer__testimonial marketer-ins__testimonial pb-120 pt-120">
+            <div class="container">
+              <div class="sec-title-3-pb">
+                <h2 class="sec-title-3 has_text_reveal_anim">What client say <br> about me</h2>
+              </div>
+              <div class="marketer__testimonial-wrapper testimonial_wrapper">
+                <div class="swiper testimonial_4">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide has_fade_anim" data-fade-from="left">
+                      <div class="marketer__testimonial-item">
+                        <div class="marketer__testimonial-thumb">
+                          <img src="../assets/imgs/testimonial/client-4/quote.svg" alt="quote">
+                        </div>
+                        <div class="marketer__testimonial-content">
+                          <p class="marketer__testimonial-dis">Our philosophy is built on people who are addicted on
+                            creating, learning & growing together which allow us to discover miss.</p>
+                          <h4 class="marketer__testimonial-name">Roderick Malone</h4>
+                          <span class="marketer__testimonial-position">Manager, Oitaka</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide has_fade_anim" data-fade-from="left">
+                      <div class="marketer__testimonial-item">
+                        <div class="marketer__testimonial-thumb">
+                          <img src="../assets/imgs/testimonial/client-4/quote-2.svg" alt="quote">
+                        </div>
+                        <div class="marketer__testimonial-content">
+                          <p class="marketer__testimonial-dis">Our philosophy is built on people who are addicted on
+                            creating, learning & growing together which allow us to discover miss.</p>
+                          <h4 class="marketer__testimonial-name">Jessica Sherlock</h4>
+                          <span class="marketer__testimonial-position">Manager, Oitaka</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide has_fade_anim" data-fade-from="left">
+                      <div class="marketer__testimonial-item">
+                        <div class="marketer__testimonial-thumb">
+                          <img src="../assets/imgs/testimonial/client-4/quote-3.svg" alt="quote">
+                        </div>
+                        <div class="marketer__testimonial-content">
+                          <p class="marketer__testimonial-dis">Our philosophy is built on people who are addicted on
+                            creating, learning & growing together which allow us to discover miss.</p>
+                          <h4 class="marketer__testimonial-name">Clarissa Pierce
+                          </h4>
+                          <span class="marketer__testimonial-position">Manager, Oitaka</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide has_fade_anim" data-fade-from="left">
+                      <div class="marketer__testimonial-item">
+                        <div class="marketer__testimonial-thumb">
+                          <img src="../assets/imgs/testimonial/client-4/quote.svg" alt="quote">
+                        </div>
+                        <div class="marketer__testimonial-content">
+                          <p class="marketer__testimonial-dis">Our philosophy is built on people who are addicted on
+                            creating, learning & growing together which allow us to discover miss.</p>
+                          <h4 class="marketer__testimonial-name">Jessica Sherlock</h4>
+                          <span class="marketer__testimonial-position">Manager, Oitaka</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide has_fade_anim" data-fade-from="left">
+                      <div class="marketer__testimonial-item">
+                        <div class="marketer__testimonial-thumb">
+                          <img src="../assets/imgs/testimonial/client-4/quote.svg" alt="quote">
+                        </div>
+                        <div class="marketer__testimonial-content">
+                          <p class="marketer__testimonial-dis">Our philosophy is built on people who are addicted on
+                            creating, learning & growing together which allow us to discover miss.</p>
+                          <h4 class="marketer__testimonial-name">Jessica Sherlock</h4>
+                          <span class="marketer__testimonial-position">Manager, Oitaka</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination has_fade_anim"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /testimonial section end -->
+
+
+          <!-- blog section start-->
+          <section class="marketer__blog pb-120 pt-120">
+            <div class="container">
+
+              <div class="sec-title-pb">
+                <h2 class="sec-title-3 has_text_reveal_anim">My recent <br> articles</h2>
+              </div>
+
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="marketer__blog-grid">
+
+                    <article class="marketer__blog-item blog-img-leftmove has_fade_anim">
+                      <div class="marketer__blog-thumb">
+                        <a href="blog-details.html"><img src="../assets/imgs/blog/blog-08.jpg" alt="Blog Thumbnail"></a>
+                      </div>
+                      <ul class="marketer__blog-meta">
+                        <li><a href="blog-details.html">UI design</a><span>, 03 May 2019</span></li>
+                      </ul>
+                      <a href="blog-details.html">
+                        <h4 class="marketer__blog-title">Right-To-Left behind Development In Mobile web Design</h4>
+                      </a>
+                    </article>
+
+                    <article class="marketer__blog-item blog-img-leftmove has_fade_anim">
+                      <div class="marketer__blog-thumb">
+                        <a href="blog-details.html"><img src="../assets/imgs/blog/5.jpg" alt="Blog Thumbnail"></a>
+                      </div>
+                      <ul class="marketer__blog-meta">
+                        <li><a href="blog-details.html">UI design</a><span>, 03 May 2019</span></li>
+                      </ul>
+                      <a href="blog-details.html">
+                        <h4 class="marketer__blog-title">Right-To-Left behind Development In Mobile web Design</h4>
+                      </a>
+                    </article>
+
+                    <article class="marketer__blog-item blog-img-leftmove has_fade_anim">
+                      <div class="marketer__blog-thumb">
+                        <a href="blog-details.html"><img src="../assets/imgs/blog/6.jpg" alt="Blog Thumbnail"></a>
+                      </div>
+                      <ul class="marketer__blog-meta">
+                        <li><a href="blog-details.html">UI design</a><span>, 03 May 2019</span></li>
+                      </ul>
+                      <a href="blog-details.html">
+                        <h4 class="marketer__blog-title">A Sneak-Peek Inside The Southeast Asian Web Community</h4>
+                      </a>
+                    </article>
+
+                    <article class="marketer__blog-item blog-img-leftmove has_fade_anim">
+                      <div class="marketer__blog-thumb">
+                        <a href="blog-details.html"><img src="../assets/imgs/blog/7.jpg" alt="Blog Thumbnail"></a>
+                      </div>
+                      <ul class="marketer__blog-meta">
+                        <li><a href="blog-details.html">UI design</a><span>, 03 May 2019</span></li>
+                      </ul>
+                      <a href="blog-details.html">
+                        <h4 class="marketer__blog-title">A Sneak-Peek Inside The Southeast Asian Web Community</h4>
+                      </a>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /blog section end-->
+
+          <!-- notification section start-->
+          <section class="marketer__notification pb-130">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="marketer__notification-wrapper has_fade_anim" data-fade-from="top" data-duration="3"
+                    data-fade-offset="150" data-ease="bounce">
+                    <div class="marketer__notification-grid">
+                      <div class="marketer__notification-left">
+                        <div class="marketer__notification-thumb cf_image">
+                          <img src="../assets/imgs/notification/notification.png" alt="notification">
+                        </div>
+                        <div class="marketer__notification-content">
+                          <h2 class="marketer__notification-title">Lat’s make <br> someting great <br> together</h2>
+                        </div>
+                      </div>
+                      <div class="marketer__notification-right">
+                        <div class="cf_text">
+                          <p>Contact us to get more information for using year overy digital marketing will be lightly
+                            touch. </p>
+                        </div>
+                        <div class="cf_btn">
+                          <a href="contact.html" class="wc-btn-primary btn-rollover-top">Contact
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <img class="marketer__notification-sh1" src="../assets/imgs/notification/shape-01.png" alt="image">
+                    <img class="marketer__notification-sh2" src="../assets/imgs/notification/shape-02.png" alt="image">
+                    <img class="marketer__notification-sh3" src="../assets/imgs/notification/shape-03.png" alt="image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /notification section end-->
+
+
+        </main>
+
+        <!-- Footer section start -->
+        <footer class="marketer__footer footer__area">
+          <div class="footer__top">
+            <div class="container line g-0">
+              <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-3">
+                  <div class="marketer__footer-logo">
+                    <a href="index.html">
+                      <img src="../assets/imgs/logo/site-logo-light.png" class="show-dark" alt="Footer Logo">
+                      <img src="../assets/imgs/logo/site-logo-dark.png" class="show-light" alt="Footer Logo">
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xxl-9 col-xl-9 col-lg-9">
+                  <div class="marketer__footer-info">
+                    <div class="marketer__footer-contact">
+                      <h3 class="marketer__footer-title">Contact</h3>
+                      <a href="tel:+(2)871382023" class="marketer__footer-link">+(2) 871 382 023</a>
+                    </div>
+                    <div class="marketer__footer-email">
+                      <h3 class="marketer__footer-title">Email</h3>
+                      <a href="mailto:hello@joyamen.com" class="marketer__footer-link">hello@joyamen.com</a>
+                    </div>
+                    <div class="marketer__footer-social footer__social">
+                      <h3 class="marketer__footer-title">Follow</h3>
+                      <ul class="hover-zoom">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="marketer__footer-btm footer__btm">
+            <div class="container">
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="marketer__footer-copyright copyright">
+                    <p>© 2022 - 2025 | Alrights reserved by <a href="https://crowdyflow.com/">CrowdyFlow</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Footer section end -->
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- All JS files -->
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="../assets/js/swiper-bundle.min.js"></script>
+  <script src="../assets/js/counter.js"></script>
+  <script src="../assets/js/typed.js"></script>
+  <!-- <script src="../assets/js/mixitup.min.js"></script> -->
+  <script src="../assets/js/progressbar.js"></script>
+  <script src="../assets/js/gsap.min.js"></script>
+  <script src="../assets/js/ScrollSmoother.min.js"></script>
+  <script src="../assets/js/ScrollToPlugin.min.js"></script>
+  <script src="../assets/js/ScrollTrigger.min.js"></script>
+  <script src="../assets/js/SplitText.min.js"></script>
+  <script src="../assets/js/TweenMax.min.js"></script>
+  <script src="../assets/js/jquery.meanmenu.min.js"></script>
+  <!-- <script src="../assets/js/beforeafter.jquery-1.0.0.min.js"></script> -->
+  <!-- <script src="../assets/js/basictable.min.js"></script> -->
+  <script src="../assets/js/backToTop.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/error-handling.js"></script>
+  <script src="../assets/js/offcanvas.js"></script>
+  <script src="../assets/js/wc-cursor.js"></script>
+
+
+</body>
+
+</html>
